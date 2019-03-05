@@ -1,0 +1,177 @@
+html {
+	box-sizing: border-box;
+	font-family: arial;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+	padding: 0;
+	margin: 0;
+}
+a, a:link, a:active, a:visited, a:hover {text-decoration: none; color: #000;}
+
+
+/*CODE START HERE*/
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #DCDCDC;
+	width: 100%;
+	position: fixed;
+	top:0px;
+
+
+	
+}
+ header nav ul{
+	display: flex;
+	margin-left: 3px;
+
+
+
+}
+nav ul li{
+	list-style-type: none;
+
+}
+li a{
+		display: block;
+		color:white;
+		text-align: center;
+		padding:14px 16px;
+		text-decoration: none;
+}
+li a:hover{
+	background-color:gray;
+}
+
+.account-link{
+	padding:0 20px;
+}
+
+
+.wrapper{
+	max-width: 70%;
+	width: 100%;
+	margin:0 auto;
+
+}
+.wrapper .banner{
+	padding:40px;
+	background-color: #D3D3D3;
+	margin-top: 75px;
+}
+.wrapper .banner h1{
+	font-family: arial;
+	color:#464343;
+	font-size: 40px;
+}
+.wrapper .banner h3{
+	font-family: arial;
+	color:#757474;
+	font-size: 15px;
+	line-height: 30px;
+}
+
+button {
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 23px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.contents{
+	display: flex;
+}
+.contents .sidebar{
+	padding:50px;
+}
+
+.contents .sub-post .post-one{
+	padding-top:25px;
+}
+
+.post-one p{
+	padding:10px 0;
+}
+h2, h1{
+	font-family: arial;
+	color:#464343;
+	
+}
+.post-one{
+	padding-bottom: 30px;
+}
+
+
+.contact-forms{
+	display: flex;	
+	flex-direction: column;
+}
+form{
+	display: flex;
+	flex-direction: column;
+	padding-top: 25px;
+}
+.contact-forms h1{
+	padding:40px;
+	text-align: left;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+
+input[type=text], select,textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.contact-forms{
+	width: 100%;
+}
+
+textarea{
+	height: 200px;
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.footer{
+	text-align: center;
+	padding-top: 5px;
+}
+.contents{
+	padding-bottom:40px;
+}
+.sub-post{
+	flex: 0 1 70%;
+	width: 100%;
+}
+.sidebar{
+	flex:0 1 30%;
+	width: 100%;
+}
